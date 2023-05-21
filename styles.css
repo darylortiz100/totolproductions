@@ -1,0 +1,165 @@
+.app {
+  background-image: url('/images/about-bg.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    margin-top: auto;
+    padding: 50px 20px 20px;
+  }
+
+.custom-navbar {
+  
+}
+
+.navbar-brand {
+  padding: 0px 20px;
+  size: 3rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+p {
+  padding: 10px 150px;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+homeTitle h1 {
+  padding: 100px 0px 0px 0px;
+  color: #fff;
+  font-size: 10em;
+  font-weight: 500;
+  text-align: center;
+  font-family: "ubuntu", sans-serif;
+}
+
+.home-page {
+  background-image: url('/images/screenshot.png');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  overflow: auto;
+  text-align: center;
+  color: #fff;
+}
+
+.about-page {
+  
+}
+
+.tqatd-logo {
+  display: block;
+  margin: auto;
+  height: 40%;
+  margin-top: 5%;
+}
+
+.home-btn {
+  padding: 5%;
+}
+
+.home-btn {
+  transition: transform .5s ease;
+}
+
+.home-btn :hover{
+  transform: scale(1.08);
+}
+
+
+/* [1] The container */
+.tri-section {
+  text-align: center;
+  padding: 5%;
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.tri-section img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.tri-section-1:hover img {
+  transform: scale(1.08);
+}
+
+.tri-section-2:hover img {
+  transform: scale(1.08);
+}
+
+.tri-section-3:hover img {
+  transform: scale(1.08);
+}
+
+aboutTitle h1 {
+  padding: 20px 0px 0px 150px;
+  font-size: 4em;
+  font-weight: 500;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+
+moreTitle h1 {
+  padding: 20px 0px 0px 20px;
+  font-size: 3em;
+  font-weight: 500;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bridge-img {
+  height: 400px;
+}
+
+.Jun-img {
+  height: 400px;
+  margin: 0px 100px 0px 100px;
+}
+
+.Jun-container {
+  margin: 75px 150px 50px 150px;
+}
+
+.contact-container {
+  background-color: aliceblue;
+  margin: 130px 200px 50px;
+  padding: 50px;
+}
+
+.circle-img {
+  border-radius: 50%;
+  border: 1px solid #fff;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.bottom-container {
+  padding: 5%;
+  text-align: center;
+  position: relative;
+}
+
+.social-media {
+  padding: 0px 10px 10px 10px;
+  font-size: 28px;
+  color: black;
+}
